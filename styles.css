@@ -1,0 +1,53 @@
+/* Element selectors */
+p {
+  font-size: 16px;
+  color: #333;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+/* ID selector */
+#profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Class selector */
+.bio {
+  font-style: italic;
+}
+
+/* Group selector */
+h1, h2 {
+  color: #2c3e50;
+}
+
+/* Descendant selector */
+.contact a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+/* Attribute selector */
+a[href] {
+  font-weight: bold;
+}
+
+/* Hover effect (Bonus) */
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Border and shadow using class */
+.profile-card {
+  width: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  text-align: center;
+}
